@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,18 +7,31 @@
 
     <style>
         body {
-            font-family: 'Courier', 'Times New Roman', bold;
-            background: linear-gradient(135deg, #0aaddf, #004edf);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            color: white;
-            animation: fadein 1s ease-in;
+    font-family: 'Courier', 'Times New Roman', bold;
+
+    /* Background gambar + gradasi */
+    background:
+        linear-gradient(
+            rgba(10, 173, 223, 0.6),
+            rgba(0, 78, 223, 0.6)
+        ),
+        url("D:\tf2.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    animation: fadein 1s ease-in;
         }
 
-        @keyframes fadein {
+
+        @keyframes fadein { 
             from { opacity: 0; }
             to { opacity: 1; }
         }
@@ -64,9 +76,9 @@
 
 <body>
     <div class="card">
-        <h1>🎉 Happy Birthday Lugas 🎉</h1>
-        <div class="age">Ciee udah 18 tahun... 😆</div>
-        <div class="wish">🎂Make A Wish.. Okay?🎂</div>
+        <h1>🎉 Happy Birthday! Lugas 🎉</h1>
+        <div class="age">Yahhh udah 18 tahun dehh... 😆</div>
+        <div class="wish">🎂Harapan lu di umur 18 ini apa?🎂</div>
     </div>
 </body>
 </html>
